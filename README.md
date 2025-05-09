@@ -26,6 +26,6 @@ This is a showcase of my personal and academic projects, achievements, and event
 
 ## ✨ Author
 
-**Shobana** – [LinkedIn](https://www.linkedin.com/in/shobana04) | [Resume](https://shobana-resume.netlify.app/)
+**Shobana** – [LinkedIn](https://www.linkedin.com/in/shobana04) 
 
 Feel free to fork, star, or contribute!
