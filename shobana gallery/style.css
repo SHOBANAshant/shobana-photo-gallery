@@ -1,0 +1,99 @@
+/* Global Styles */
+body {
+    background-color: #0f2a1d;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* Navigation Bar */
+header {
+    background: #0f2a1d;
+    padding: 15px;
+    text-align: left;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Main Container: Text + Gallery */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+    padding: 30px;
+}
+.head {
+    gap: 10px;
+    margin-right: 10px;
+    padding-left: 90px;
+}
+
+/* Left Side - Text */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+.text-section {
+    flex: 1;
+    padding-right: 50px;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+}
+
+.text-section h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: white;
+}
+
+.text-section .highlight {
+    color: #FFA500; /* Yellow-Orange */
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.text-section p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+/* Right Side - Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    flex: 2;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
